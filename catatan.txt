@@ -1,0 +1,11 @@
+pergerakan setting kecepatan
+pergerakan pilih arah
+
+selanjutnya:
+============
+skala
+rotasi
+
+fase 2:
+=======
+id gen dibuat global
