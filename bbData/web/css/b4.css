@@ -1,0 +1,75 @@
+pohon-item div.nama-cont button.toggle.tutup::before {
+    content: '▶';
+}
+
+pohon-item div.nama-cont,
+pohon-item div.nama-cont button {
+    cursor: pointer;
+}
+
+pohon-item div.nama-cont.dipilih {
+    border: 1px solid;
+}
+
+menu-cont tombol-cont menu {
+    padding: 4px;
+}
+
+html,
+body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#canvas {
+    width: 100%;
+    height: 100%;
+    touch-action: none;
+}
+
+canvas-cont {
+    min-height: 100vh;
+    width: 60%;
+}
+
+menu-cont {
+    display: flex;
+    width: 40%;
+}
+
+menu-cont struktur,
+menu-cont tombol-cont {
+    display: block;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+menu-cont struktur {
+    width: 60%;
+    padding: 4px;
+}
+
+menu-cont tombol-cont {
+    width: 40%;
+    padding: 4px;
+}
+
+menu-cont struktur pohon-item {
+    display: block;
+}
+
+struktur pohon-item>cont {
+    display: block;
+}
+
+pohon-item nama {
+    cursor: pointer;
+    user-select: none;
+}
+
+pohon-item>cont {
+    margin-left: 8px;
+}
